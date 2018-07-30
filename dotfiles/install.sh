@@ -17,3 +17,6 @@ ln -s ${DefaultDotfilesDir}/conky ~/.config/conky
 ln -s ${DefaultDotfilesDir}/rofi ~/.config/rofi
 ln -s ${DefaultDotfilesDir}/oh-my-zsh ~/.oh-my-zsh
 
+
+#sudo links
+sudo ln -s ${DefaultDotfilesDir}/conky/gplay /usr/bin/gplay

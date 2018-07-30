@@ -1,0 +1,3 @@
+#!/usr/bin/sh
+
+cat "$HOME/.config/Google Play Music Desktop Player/json_store/playback.json" | jq -r '.song.artist, .song.title' | sed ':a;N;$!ba;s/\n/ \- /'
